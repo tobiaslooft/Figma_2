@@ -1,0 +1,161 @@
+
+.container {
+    position: absolute;
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #370617;
+}
+
+.box-one {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    flex: start;
+    display: inline-flex;
+    align-items: flex-end;
+    background-color: #F48C06;
+}
+
+.box-one__box {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box-two {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    gap: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #F48C06;
+}
+
+.box-two__box {
+    width: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-three {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    gap: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F48C06;
+}
+
+.box-three__box {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.box-four {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    display: inline-flex;
+    background-color: #F48C06;
+    justify-content: space-between;
+}
+
+.box-four__box1 {
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #9D0208;
+    border-radius: 5px;
+}
+
+.box-four__box2 {
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #9D0208;
+    border-radius: 5px;
+}
+
+.box-four__box3 {
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.box-five {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    display: inline-flex;
+    background-color: #F48C06;
+    /* Hur får jag texten på y-axeln efter baseline? */
+}
+
+.box-five__box {
+    width: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box-five__box2 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    align-self: center;
+    
+}
+
+.box-six {
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    background-color: #F48C06;
+    gap: 20px;
+}
+
+.box-six__box {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+}
+
+.box-six__box2 {
+    width: 150px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+
+}
